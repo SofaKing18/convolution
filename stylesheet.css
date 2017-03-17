@@ -1,0 +1,61 @@
+.header {
+	background-color: black;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	margin-top: -10px;
+}
+.header>a{
+	color: white;
+	text-decoration: none;
+}
+
+.upload_form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.progress {
+	background-color: grey !important;
+}
+#percent {
+	background-color: green;
+}
+canvas {
+	position:absolute;
+	margin: 0 auto;
+	max-width: 60% !important;
+	max-height: 90% !important;
+	border: 1px solid #000000;
+	float: left;
+}
+.filter_size{
+	color: white;
+}
+.filter_size input{
+
+	width: 50px;
+}
+.filter_f_vs {
+	background-color: grey !important;
+}
+.filter_block{	
+min-width: 200px;
+  position: absolute;
+  left: 62%;
+  background-color: black;
+	border-top-right-radius: 25px;
+	border:  1px solid #000000;
+}
+.f_v {
+	width: 30px;
+	margin: 3px;
+}
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+}
